@@ -16,7 +16,7 @@ import IntroComponent from './src/components/Intro';
 let ScreenHeight = Dimensions.get('window').height;
 
 const App = () => {
-  const [step, setSteps] = useState(1);
+  const [step, setSteps] = useState(8);
   const [toggleIntro, setToggleIntro] = useState(true);
   const [demo, switchDemo] = useState(true);
   return (
